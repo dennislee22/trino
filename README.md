@@ -12,13 +12,13 @@ Trino is a fast, distributed SQL query engine designed for querying massive data
 <img width="1000" height="642" alt="image" src="https://github.com/user-attachments/assets/bb8237e3-53bc-4eb9-980b-bab8463cd90f" />
 
 ## Deployment Procedure
-1. You can create a federation connector that can be used by a Trino Virtual Warehouse to query and access data from different data sources. Federation Connectors are configured and managed within Cloudera Data Warehouse (CDW) for `Trino` Virtual Warehouse. 
+1. You can create a federation connector that can be used by a Trino virtual warehouse to query and access data from different data sources. Federation Connectors are configured and managed within Cloudera Data Warehouse (CDW) for `Trino` virtual warehouse. 
 <img width="700" height="753" alt="image" src="https://github.com/user-attachments/assets/4d42eaea-884f-42c1-94bc-dae77b8d05af" />
 
-2. Users can define connectors to external data sources such as PostgreSQL, MySQL, Hive, and Iceberg, by specifying connection details like JDBC URL, credentials, and connector type, and validating connectivity with a built-in test. Once created, the federation connectors are centrally listed and can be reused by Trino Virtual Warehouses to seamlessly query and federate data across multiple heterogeneous systems, enabling unified analytics without moving or duplicating data.
+2. Users can define connectors to external data sources such as PostgreSQL, MySQL, Hive, and Iceberg, by specifying connection details like JDBC URL, credentials, and connector type, and validating connectivity with a built-in test. Once created, the federation connectors are centrally listed and can be reused by Trino virtual warehouses to seamlessly query and federate data across multiple heterogeneous systems, enabling unified analytics without moving or duplicating data.
 <img width="800" height="473" alt="image" src="https://github.com/user-attachments/assets/9ed0141f-afd6-4ec2-af0e-37e124f235dd" />
 
-3. Create a `Trino` Virtual Warehouse with the pre-defined resource profile. You can specify which LDAP group (in this case, `cdw` group) is permitted to access this virtual warehouse.
+3. Create a `Trino` virtual warehouse with the pre-defined resource profile. You can specify which LDAP group (in this case, `cdw` group) is permitted to access this virtual warehouse.
 <img width="1000" height="757" alt="image" src="https://github.com/user-attachments/assets/1b7d4203-7c92-4edc-b6c4-cc62db433447" />
 
 <img width="1000" height="745" alt="image" src="https://github.com/user-attachments/assets/4d58f705-cde7-4112-aa75-3545f8a88d5c" />
@@ -92,9 +92,9 @@ status:
 
 <img width="1000" height="749" alt="image" src="https://github.com/user-attachments/assets/ee21fa5a-b25e-4a0e-95c2-11c44c83fab4" />
 
-5. Open the Hue SQL editor on this Trino warehouse. Note that both `mysqlcde` and `postgrescdp` databases have successfully been populated. Test the SQL query on `mysqlcde` database using Hue in Trino warehouse.
+5. Open the Hue SQL editor on this Trino warehouse. Note that both `mysqlcde` and `postgrescdp` databases have successfully been populated. Test the SQL query on `mysqlcde` database using Hue in Trino virtual warehouse.
 <img width="1000" height="738" alt="image" src="https://github.com/user-attachments/assets/586d8d66-5c60-4de6-b978-a130677aa533" />
 
-6. Test the SQL query on `mysqlcde` and `postgrescdp` databases using Hue in Trino warehouse.
+6. Test the SQL query on `mysqlcde` and `postgrescdp` databases using Hue in Trino virtual warehouse.
 <img width="1000" height="746" alt="image" src="https://github.com/user-attachments/assets/b7272997-f064-4a08-ad24-64548a921a34" />
 
