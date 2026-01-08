@@ -1,6 +1,6 @@
 # Cloudera Trino
 
-<img width="200" height="252" alt="image" src="https://github.com/user-attachments/assets/12f5ce0e-801c-45fe-b07d-e1f4f778479a" />
+<img width="200" height="251" alt="image" src="https://github.com/user-attachments/assets/397a22f6-a2c4-45cb-8e85-f5309df04a10" />
 
 Trino is a fast, distributed SQL query engine designed for querying massive datasets across heterogeneous sources using standard SQL. It supports large-scale analytics and data engineering by enabling both interactive queries and batch workloads directly, eliminating the need for costly data movement or storage format transformations. This blog focuses on a Kubernetes–based deployment example of Trino, complete with screenshots and structural insights.
 
