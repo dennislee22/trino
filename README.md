@@ -8,7 +8,7 @@ Trino is a fast, distributed SQL query engine designed for querying massive data
 
 <img width="1000" height="738" alt="image" src="https://github.com/user-attachments/assets/16f22115-0ef7-4819-88f7-10c4ad3abd6b" />
 
-- In this example, user `dennis` is authorized for creating, reading, and writing data, as well as editing table metadata. 
+- In this example, user `dennis` is authorized for creating, reading, and writing data. 
 <img width="1000" height="642" alt="image" src="https://github.com/user-attachments/assets/bb8237e3-53bc-4eb9-980b-bab8463cd90f" />
 
 ## Deployment Procedure
