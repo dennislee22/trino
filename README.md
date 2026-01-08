@@ -12,11 +12,14 @@ Trino is a fast, distributed SQL query engine designed for querying massive data
 <img width="1000" height="642" alt="image" src="https://github.com/user-attachments/assets/bb8237e3-53bc-4eb9-980b-bab8463cd90f" />
 
 ## Deployment Procedure
-1. You can create a federation connector that can be used by a Trino virtual warehouse to query and access data from different data sources. Federation Connectors are configured and managed within Cloudera Data Warehouse (CDW) for `Trino` virtual warehouse. 
+1. You can create a federation connector that can be used by a Trino virtual warehouse to query and access data from different data sources. Federation Connectors are configured and managed within Cloudera Data Warehouse (CDW) for `Trino` virtual warehouse. Users can define connectors to external data sources such as PostgreSQL, MySQL, Hive, and Iceberg, by specifying connection details like JDBC URL, credentials, and connector type, and validating connectivity with a built-in test. 
+
+<img width="700" height="588" alt="image" src="https://github.com/user-attachments/assets/e7bf2b49-e91d-4b3c-95e4-0fbaffd0af6b" />
+
 <img width="700" height="753" alt="image" src="https://github.com/user-attachments/assets/4d42eaea-884f-42c1-94bc-dae77b8d05af" />
 
-2. Users can define connectors to external data sources such as PostgreSQL, MySQL, Hive, and Iceberg, by specifying connection details like JDBC URL, credentials, and connector type, and validating connectivity with a built-in test. Once created, the federation connectors are centrally listed and can be reused by Trino virtual warehouses to seamlessly query and federate data across multiple heterogeneous systems, enabling unified analytics without moving or duplicating data.
-<img width="800" height="473" alt="image" src="https://github.com/user-attachments/assets/9ed0141f-afd6-4ec2-af0e-37e124f235dd" />
+2. Once created, the federation connectors are centrally listed and can be reused by Trino virtual warehouses to seamlessly query and federate data across multiple heterogeneous systems, enabling unified analytics without moving or duplicating data.
+<img width="700" height="473" alt="image" src="https://github.com/user-attachments/assets/9ed0141f-afd6-4ec2-af0e-37e124f235dd" />
 
 3. Create a `Trino` virtual warehouse with the pre-defined resource profile. You can specify which LDAP group (in this case, `cdw` group) is permitted to access this virtual warehouse.
 <img width="1000" height="757" alt="image" src="https://github.com/user-attachments/assets/1b7d4203-7c92-4edc-b6c4-cc62db433447" />
