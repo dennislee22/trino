@@ -1,5 +1,13 @@
 # trino
 
+## Prerequisites
+
+<img width="1000" height="738" alt="image" src="https://github.com/user-attachments/assets/16f22115-0ef7-4819-88f7-10c4ad3abd6b" />
+
+<img width="1000" height="642" alt="image" src="https://github.com/user-attachments/assets/bb8237e3-53bc-4eb9-980b-bab8463cd90f" />
+
+
+
 <img width="700" height="753" alt="image" src="https://github.com/user-attachments/assets/4d42eaea-884f-42c1-94bc-dae77b8d05af" />
 
 <img width="800" height="473" alt="image" src="https://github.com/user-attachments/assets/9ed0141f-afd6-4ec2-af0e-37e124f235dd" />
